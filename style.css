@@ -15,7 +15,7 @@ button {
     font-size: 18px;
     padding: 20px 20px;
     background-color: white;
-    color: blueviolet;
+    color: black;
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 25px rebeccapurple;
@@ -23,6 +23,8 @@ button {
     height: auto;
     margin: 15px;
     text-align: center;
+    font-family: 'Courier New';
+    font-weight: 500;
 
 }
 
@@ -31,7 +33,7 @@ button {
 }
 
 button:active {
-    background: gray;
+    background: rgb(203, 170, 26);
     box-shadow: 0 2px 25px black;
 }
 
