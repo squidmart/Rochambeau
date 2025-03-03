@@ -1,0 +1,71 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+
+}
+
+button {
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px 20px;
+    background-color: white;
+    color: blueviolet;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 25px rebeccapurple;
+    width: 120px;
+    height: auto;
+    margin: 15px;
+    text-align: center;
+
+}
+
+#resetButton {
+    width: 200px;
+}
+
+button:active {
+    background: gray;
+    box-shadow: 0 2px 25px black;
+}
+
+#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#container2,
+#announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.gameName {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 8px;
+
+}
+
+img {
+    width: 150px;
+    height: auto;
+    padding: 15px;
+}
+
+.player,
+.computer {
+    font-weight: bold;
+}

@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Rock</title>
+    <link rel="stylesheet" href="style.css">
 
   
 <body>
-    <h1> Rochambeau aka Rock, Paper, Scissors!</h1>
-    <h2> How did I do this?
-    </h2>
-    <img src="rock.png" alt="rock from wiki">
-    <p>
-        <ol>
-            <li>
-                Create the pseudocode
-            </li>
-            <li> Use math.random for the computer pick </li>
-            <li> Use prompt for the human pick</li>
-            <li> Create the play round with decision on who wins</li>
-            <li> Create the for loop to play 5 rounds</li>
-            <li> End the game with declaring the final winner</li>
-        </ol>
-    </p>
-    <div> I enjoyed working on this project!</div>
+
+    <div class = "gameName"> Rochambeau</div>
+    
+    <div id = "container1">
+    <div class = "Player"> <strong>Player One</strong></div>
+    <img src="player.png" alt="player one">
+    </div>
+    
+    <div> Weapon selection: </div>
+        <div id = "container3">
+        <button id = "rock"> Rock</button>
+        <button id = "paper">Paper</button>
+        <button id = "scissors">Scissors</button> 
+        </div>
+    
+    <div id = "container2">
+
+    <div class = "Computer"> <strong>Computer</strong></div> 
+    <img src="computer.png" alt="AI picture of an old computer">
+    </div>
+    
+    <div id="announcement"></div>
+   
+    <button id="resetButton">Reset game? </button>
+
+    <!-- scoreboard -->
+
+    <!-- announce winner after 5 rounds -->
+
+
     <script src="javascript.js"></script>
 </head>
 </body>
